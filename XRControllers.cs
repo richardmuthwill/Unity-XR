@@ -1,4 +1,12 @@
-﻿using System.Collections.Generic;
+﻿/*
+
+	// XRControllers.cs - For getting the right and left controllers //
+	Add "XRControllers.Instance.InputDevicesChanged += [method name];" in
+	another script to register when devices have changed in some way. Add
+	this script to the XR Rig.
+
+*/
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.Events;
